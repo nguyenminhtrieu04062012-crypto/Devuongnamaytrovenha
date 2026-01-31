@@ -228,6 +228,26 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/real33ms/BloxFruits/refs/heads/main/AbacaxiHubOfc.lua"))()
     end
 })
+Tabs.Main1:AddButton({
+    Title="chủ script tổng hợp",
+    Callback=function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nguyenminhtrieu04062012-crypto/Minhtrieu93/refs/heads/main/sourcescript%20(1).txt"))()
+    end
+})
+Tabs.Main1:AddButton({
+    Title="Redz hub Việt",
+    Callback=function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/luacoder-byte/luacoder/refs/heads/main/RedzHub.lua"))()
+    end
+})
+Tabs.Main1:AddButton({
+    Title="kiếm sever",
+    Callback=function()
+        repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().team = "Pirates" -- Pirates or Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luacoder-byte/DragonHub/refs/heads/main/DragonHubHopServer.lua"))()
+    end
+})
 -- Tab 2: troll bay phá
 Tabs.Main2:AddButton({
     Title="ghost hub",
